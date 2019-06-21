@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B3CCDCC22BD5AC000C0E439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDCB22BD5AC000C0E439 /* AppDelegate.swift */; };
+		4B3CCDCE22BD5AC000C0E439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDCD22BD5AC000C0E439 /* SceneDelegate.swift */; };
+		4B3CCDD122BD5AC000C0E439 /* tiket_game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDCF22BD5AC000C0E439 /* tiket_game.xcdatamodeld */; };
+		4B3CCDD322BD5AC000C0E439 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDD222BD5AC000C0E439 /* ContentView.swift */; };
+		4B3CCDD522BD5AC100C0E439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CCDD422BD5AC100C0E439 /* Assets.xcassets */; };
+		4B3CCDD822BD5AC100C0E439 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CCDD722BD5AC100C0E439 /* Preview Assets.xcassets */; };
+		4B3CCDDB22BD5AC100C0E439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CCDD922BD5AC100C0E439 /* LaunchScreen.storyboard */; };
+		4B3CCDE622BD5AC200C0E439 /* tiket_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDE522BD5AC200C0E439 /* tiket_gameTests.swift */; };
+		4B3CCDF122BD5AC200C0E439 /* tiket_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDF022BD5AC200C0E439 /* tiket_gameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3CCDE222BD5AC200C0E439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3CCDC022BD5AC000C0E439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3CCDC722BD5AC000C0E439;
+			remoteInfo = "tiket-game";
+		};
+		4B3CCDED22BD5AC200C0E439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3CCDC022BD5AC000C0E439 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3CCDC722BD5AC000C0E439;
+			remoteInfo = "tiket-game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B3CCDC822BD5AC000C0E439 /* tiket-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tiket-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3CCDCB22BD5AC000C0E439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B3CCDCD22BD5AC000C0E439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B3CCDD022BD5AC000C0E439 /* tiket_game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tiket_game.xcdatamodel; sourceTree = "<group>"; };
+		4B3CCDD222BD5AC000C0E439 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B3CCDD422BD5AC100C0E439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3CCDD722BD5AC100C0E439 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B3CCDDA22BD5AC100C0E439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3CCDDC22BD5AC100C0E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3CCDE122BD5AC200C0E439 /* tiket-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tiket-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3CCDE522BD5AC200C0E439 /* tiket_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiket_gameTests.swift; sourceTree = "<group>"; };
+		4B3CCDE722BD5AC200C0E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3CCDEC22BD5AC200C0E439 /* tiket-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tiket-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3CCDF022BD5AC200C0E439 /* tiket_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiket_gameUITests.swift; sourceTree = "<group>"; };
+		4B3CCDF222BD5AC200C0E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3CCDC522BD5AC000C0E439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3CCDDE22BD5AC200C0E439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3CCDE922BD5AC200C0E439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3CCDBF22BD5AC000C0E439 = {
+			isa = PBXGroup;
+			children = (
+				4B3CCDCA22BD5AC000C0E439 /* tiket-game */,
+				4B3CCDE422BD5AC200C0E439 /* tiket-gameTests */,
+				4B3CCDEF22BD5AC200C0E439 /* tiket-gameUITests */,
+				4B3CCDC922BD5AC000C0E439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3CCDC922BD5AC000C0E439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3CCDC822BD5AC000C0E439 /* tiket-game.app */,
+				4B3CCDE122BD5AC200C0E439 /* tiket-gameTests.xctest */,
+				4B3CCDEC22BD5AC200C0E439 /* tiket-gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3CCDCA22BD5AC000C0E439 /* tiket-game */ = {
+			isa = PBXGroup;
+			children = (
+				4B3CCDCB22BD5AC000C0E439 /* AppDelegate.swift */,
+				4B3CCDCD22BD5AC000C0E439 /* SceneDelegate.swift */,
+				4B3CCDD222BD5AC000C0E439 /* ContentView.swift */,
+				4B3CCDD422BD5AC100C0E439 /* Assets.xcassets */,
+				4B3CCDD922BD5AC100C0E439 /* LaunchScreen.storyboard */,
+				4B3CCDDC22BD5AC100C0E439 /* Info.plist */,
+				4B3CCDCF22BD5AC000C0E439 /* tiket_game.xcdatamodeld */,
+				4B3CCDD622BD5AC100C0E439 /* Preview Content */,
+			);
+			path = "tiket-game";
+			sourceTree = "<group>";
+		};
+		4B3CCDD622BD5AC100C0E439 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B3CCDD722BD5AC100C0E439 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B3CCDE422BD5AC200C0E439 /* tiket-gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3CCDE522BD5AC200C0E439 /* tiket_gameTests.swift */,
+				4B3CCDE722BD5AC200C0E439 /* Info.plist */,
+			);
+			path = "tiket-gameTests";
+			sourceTree = "<group>";
+		};
+		4B3CCDEF22BD5AC200C0E439 /* tiket-gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3CCDF022BD5AC200C0E439 /* tiket_gameUITests.swift */,
+				4B3CCDF222BD5AC200C0E439 /* Info.plist */,
+			);
+			path = "tiket-gameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3CCDC722BD5AC000C0E439 /* tiket-game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3CCDF522BD5AC200C0E439 /* Build configuration list for PBXNativeTarget "tiket-game" */;
+			buildPhases = (
+				4B3CCDC422BD5AC000C0E439 /* Sources */,
+				4B3CCDC522BD5AC000C0E439 /* Frameworks */,
+				4B3CCDC622BD5AC000C0E439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tiket-game";
+			productName = "tiket-game";
+			productReference = 4B3CCDC822BD5AC000C0E439 /* tiket-game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B3CCDE022BD5AC200C0E439 /* tiket-gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3CCDF822BD5AC200C0E439 /* Build configuration list for PBXNativeTarget "tiket-gameTests" */;
+			buildPhases = (
+				4B3CCDDD22BD5AC200C0E439 /* Sources */,
+				4B3CCDDE22BD5AC200C0E439 /* Frameworks */,
+				4B3CCDDF22BD5AC200C0E439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3CCDE322BD5AC200C0E439 /* PBXTargetDependency */,
+			);
+			name = "tiket-gameTests";
+			productName = "tiket-gameTests";
+			productReference = 4B3CCDE122BD5AC200C0E439 /* tiket-gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B3CCDEB22BD5AC200C0E439 /* tiket-gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3CCDFB22BD5AC200C0E439 /* Build configuration list for PBXNativeTarget "tiket-gameUITests" */;
+			buildPhases = (
+				4B3CCDE822BD5AC200C0E439 /* Sources */,
+				4B3CCDE922BD5AC200C0E439 /* Frameworks */,
+				4B3CCDEA22BD5AC200C0E439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3CCDEE22BD5AC200C0E439 /* PBXTargetDependency */,
+			);
+			name = "tiket-gameUITests";
+			productName = "tiket-gameUITests";
+			productReference = 4B3CCDEC22BD5AC200C0E439 /* tiket-gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3CCDC022BD5AC000C0E439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Andrew Khasanov";
+				TargetAttributes = {
+					4B3CCDC722BD5AC000C0E439 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4B3CCDE022BD5AC200C0E439 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4B3CCDC722BD5AC000C0E439;
+					};
+					4B3CCDEB22BD5AC200C0E439 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4B3CCDC722BD5AC000C0E439;
+					};
+				};
+			};
+			buildConfigurationList = 4B3CCDC322BD5AC000C0E439 /* Build configuration list for PBXProject "tiket-game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B3CCDBF22BD5AC000C0E439;
+			productRefGroup = 4B3CCDC922BD5AC000C0E439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3CCDC722BD5AC000C0E439 /* tiket-game */,
+				4B3CCDE022BD5AC200C0E439 /* tiket-gameTests */,
+				4B3CCDEB22BD5AC200C0E439 /* tiket-gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3CCDC622BD5AC000C0E439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3CCDDB22BD5AC100C0E439 /* LaunchScreen.storyboard in Resources */,
+				4B3CCDD822BD5AC100C0E439 /* Preview Assets.xcassets in Resources */,
+				4B3CCDD522BD5AC100C0E439 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3CCDDF22BD5AC200C0E439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3CCDEA22BD5AC200C0E439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3CCDC422BD5AC000C0E439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3CCDCC22BD5AC000C0E439 /* AppDelegate.swift in Sources */,
+				4B3CCDCE22BD5AC000C0E439 /* SceneDelegate.swift in Sources */,
+				4B3CCDD322BD5AC000C0E439 /* ContentView.swift in Sources */,
+				4B3CCDD122BD5AC000C0E439 /* tiket_game.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3CCDDD22BD5AC200C0E439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3CCDE622BD5AC200C0E439 /* tiket_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3CCDE822BD5AC200C0E439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3CCDF122BD5AC200C0E439 /* tiket_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B3CCDE322BD5AC200C0E439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3CCDC722BD5AC000C0E439 /* tiket-game */;
+			targetProxy = 4B3CCDE222BD5AC200C0E439 /* PBXContainerItemProxy */;
+		};
+		4B3CCDEE22BD5AC200C0E439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3CCDC722BD5AC000C0E439 /* tiket-game */;
+			targetProxy = 4B3CCDED22BD5AC200C0E439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B3CCDD922BD5AC100C0E439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3CCDDA22BD5AC100C0E439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3CCDF322BD5AC200C0E439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B3CCDF422BD5AC200C0E439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3CCDF622BD5AC200C0E439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "tiket-game/Preview\\ Content";
+				DEVELOPMENT_TEAM = R859U8DTY9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "tiket-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xax.tiket-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B3CCDF722BD5AC200C0E439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "tiket-game/Preview\\ Content";
+				DEVELOPMENT_TEAM = R859U8DTY9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "tiket-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xax.tiket-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B3CCDF922BD5AC200C0E439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R859U8DTY9;
+				INFOPLIST_FILE = "tiket-gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xax.tiket-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiket-game.app/tiket-game";
+			};
+			name = Debug;
+		};
+		4B3CCDFA22BD5AC200C0E439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R859U8DTY9;
+				INFOPLIST_FILE = "tiket-gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xax.tiket-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiket-game.app/tiket-game";
+			};
+			name = Release;
+		};
+		4B3CCDFC22BD5AC200C0E439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R859U8DTY9;
+				INFOPLIST_FILE = "tiket-gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xax.tiket-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tiket-game";
+			};
+			name = Debug;
+		};
+		4B3CCDFD22BD5AC200C0E439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R859U8DTY9;
+				INFOPLIST_FILE = "tiket-gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xax.tiket-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tiket-game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3CCDC322BD5AC000C0E439 /* Build configuration list for PBXProject "tiket-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3CCDF322BD5AC200C0E439 /* Debug */,
+				4B3CCDF422BD5AC200C0E439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3CCDF522BD5AC200C0E439 /* Build configuration list for PBXNativeTarget "tiket-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3CCDF622BD5AC200C0E439 /* Debug */,
+				4B3CCDF722BD5AC200C0E439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3CCDF822BD5AC200C0E439 /* Build configuration list for PBXNativeTarget "tiket-gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3CCDF922BD5AC200C0E439 /* Debug */,
+				4B3CCDFA22BD5AC200C0E439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3CCDFB22BD5AC200C0E439 /* Build configuration list for PBXNativeTarget "tiket-gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3CCDFC22BD5AC200C0E439 /* Debug */,
+				4B3CCDFD22BD5AC200C0E439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B3CCDCF22BD5AC000C0E439 /* tiket_game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B3CCDD022BD5AC000C0E439 /* tiket_game.xcdatamodel */,
+			);
+			currentVersion = 4B3CCDD022BD5AC000C0E439 /* tiket_game.xcdatamodel */;
+			path = tiket_game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B3CCDC022BD5AC000C0E439 /* Project object */;
+}
