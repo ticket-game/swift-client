@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B22185B22BF95600015773F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22185A22BF95600015773F /* Operators.swift */; };
+		4B24704922C031DD00735467 /* AnswerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24704822C031DD00735467 /* AnswerField.swift */; };
+		4B24704B22C032EA00735467 /* AnswerFieldElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24704A22C032EA00735467 /* AnswerFieldElement.swift */; };
 		4B3CCDCC22BD5AC000C0E439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDCB22BD5AC000C0E439 /* AppDelegate.swift */; };
 		4B3CCDCE22BD5AC000C0E439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDCD22BD5AC000C0E439 /* SceneDelegate.swift */; };
 		4B3CCDD122BD5AC000C0E439 /* tiket_game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDCF22BD5AC000C0E439 /* tiket_game.xcdatamodeld */; };
@@ -16,6 +19,8 @@
 		4B3CCDDB22BD5AC100C0E439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3CCDD922BD5AC100C0E439 /* LaunchScreen.storyboard */; };
 		4B3CCDE622BD5AC200C0E439 /* tiket_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDE522BD5AC200C0E439 /* tiket_gameTests.swift */; };
 		4B3CCDF122BD5AC200C0E439 /* tiket_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CCDF022BD5AC200C0E439 /* tiket_gameUITests.swift */; };
+		4BEC284B22C0CC9A0046D4E8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC284A22C0CC9A0046D4E8 /* Game.swift */; };
+		4BEC284E22C0D4050046D4E8 /* checkAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC284D22C0D4050046D4E8 /* checkAnswer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B22185A22BF95600015773F /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		4B24704822C031DD00735467 /* AnswerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerField.swift; sourceTree = "<group>"; };
+		4B24704A22C032EA00735467 /* AnswerFieldElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerFieldElement.swift; sourceTree = "<group>"; };
 		4B3CCDC822BD5AC000C0E439 /* tiket-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tiket-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3CCDCB22BD5AC000C0E439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B3CCDCD22BD5AC000C0E439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		4B3CCDEC22BD5AC200C0E439 /* tiket-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tiket-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3CCDF022BD5AC200C0E439 /* tiket_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiket_gameUITests.swift; sourceTree = "<group>"; };
 		4B3CCDF222BD5AC200C0E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BEC284A22C0CC9A0046D4E8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4BEC284D22C0D4050046D4E8 /* checkAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkAnswer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B22185922BF95390015773F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B22185A22BF95600015773F /* Operators.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B24704722C031C500735467 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B24704822C031DD00735467 /* AnswerField.swift */,
+				4B24704A22C032EA00735467 /* AnswerFieldElement.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4B3CCDBF22BD5AC000C0E439 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +128,9 @@
 		4B3CCDCA22BD5AC000C0E439 /* tiket-game */ = {
 			isa = PBXGroup;
 			children = (
+				4BEC284C22C0D3DA0046D4E8 /* lib */,
+				4B24704722C031C500735467 /* Views */,
+				4B22185922BF95390015773F /* Models */,
 				4B3CCDCB22BD5AC000C0E439 /* AppDelegate.swift */,
 				4B3CCDCD22BD5AC000C0E439 /* SceneDelegate.swift */,
 				4B3CCDD222BD5AC000C0E439 /* ContentView.swift */,
@@ -109,6 +139,7 @@
 				4B3CCDDC22BD5AC100C0E439 /* Info.plist */,
 				4B3CCDCF22BD5AC000C0E439 /* tiket_game.xcdatamodeld */,
 				4B3CCDD622BD5AC100C0E439 /* Preview Content */,
+				4BEC284A22C0CC9A0046D4E8 /* Game.swift */,
 			);
 			path = "tiket-game";
 			sourceTree = "<group>";
@@ -137,6 +168,14 @@
 				4B3CCDF222BD5AC200C0E439 /* Info.plist */,
 			);
 			path = "tiket-gameUITests";
+			sourceTree = "<group>";
+		};
+		4BEC284C22C0D3DA0046D4E8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4BEC284D22C0D4050046D4E8 /* checkAnswer.swift */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +310,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B3CCDCC22BD5AC000C0E439 /* AppDelegate.swift in Sources */,
+				4B22185B22BF95600015773F /* Operators.swift in Sources */,
+				4B24704B22C032EA00735467 /* AnswerFieldElement.swift in Sources */,
 				4B3CCDCE22BD5AC000C0E439 /* SceneDelegate.swift in Sources */,
 				4B3CCDD322BD5AC000C0E439 /* ContentView.swift in Sources */,
+				4B24704922C031DD00735467 /* AnswerField.swift in Sources */,
+				4BEC284E22C0D4050046D4E8 /* checkAnswer.swift in Sources */,
 				4B3CCDD122BD5AC000C0E439 /* tiket_game.xcdatamodeld in Sources */,
+				4BEC284B22C0CC9A0046D4E8 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

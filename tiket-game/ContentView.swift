@@ -8,16 +8,18 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct ContentView: View {
+    var numset: String
     var body: some View {
-        Text("Hello World")
+        Game(numset: numset, possibleAnswerCounts: 10)
+
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(numset: "103486")
     }
 }
 #endif
