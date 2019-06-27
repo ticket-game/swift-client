@@ -1,0 +1,26 @@
+{
+  "configurations" : [
+    {
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "tiket_gameTests"
+      ],
+      "target" : {
+        "containerPath" : "container:tiket-game.xcodeproj",
+        "identifier" : "4B3CCDE022BD5AC200C0E439",
+        "name" : "tiket-gameTests"
+      }
+    }
+  ],
+  "version" : 1
+}

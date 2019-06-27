@@ -9,7 +9,7 @@
 import Foundation
 
 enum CheckAnswerErrors: Error {
-    case wrongOperator(operator : char)
+    case wrongOperator(operator : Character)
 }
 
 let rightOperators = ["*", ":", "/", "^", "+", "-", "(", ")"]
@@ -18,13 +18,14 @@ func checkAnswer(numset: String, operators: [String]) throws -> String {
     for op in operators {
         try validateOperator(op: op)
     }
+    return "";
 }
 
 func validateOperator(op: String) throws {
     for ch in Array(op) {
         var right = false
         for opVariant in rightOperators {
-            if ch == opVariant {
+            if String(ch) == opVariant {
                 right = true
             }
         }
