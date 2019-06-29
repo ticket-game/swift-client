@@ -99,15 +99,8 @@ class Calculator {
 
 
                 let priority = try Priority(op: op);
-                while _opStack.any() {
-                    do {
-                        if (try Priority(op: _opStack.peek()!) > priority) {
-                            try ProcessOp(opCode: _opStack.pop()!);
-                        }
-
-                    } catch CalculatorError.InvalidOperationException {
-                        break;
-                    }
+                while try _opStack.any() && Priority(op: _opStack.peek()!) > priority {
+                    try ProcessOp(opCode: _opStack.pop()!);
                 }
                 _opStack.push(op);
             } else if (symbol < 10) {

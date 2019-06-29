@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var numset: String
+    var numset: [Int]
     var body: some View {
         Game(numset: numset, possibleAnswerCounts: 10)
 
@@ -19,7 +19,7 @@ struct ContentView: View {
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(numset: "103486")
+        ContentView(numset: [1,0,3,4,8,6])
     }
 }
 #endif

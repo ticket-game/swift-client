@@ -12,25 +12,28 @@ enum CheckAnswerErrors: Error {
     case wrongOperator(operator : Character)
 }
 
-let rightOperators = ["*", ":", "/", "^", "+", "-", "(", ")"]
+let rightOperators = ["*": 11, ":": 12, "/": 12, "+": 13, "-": 14, "(": 15, ")": 16, "^": 17]
 
-func checkAnswer(numset: String, operators: [String]) throws -> String {
-    for op in operators {
-        try validateOperator(op: op)
+func checkAnswer(variant: Answer) throws -> Int? {
+    var exp: [Int] = []
+    for i in 0...6 {
+        exp += try mapCharToInt(op: variant.operators[i])
+        if i != 6 {
+            exp.append(variant.numset[i])
+        }
     }
-    return "";
+    let calc = Calculator();
+    return try calc.Calculate(expression: exp);
 }
 
-func validateOperator(op: String) throws {
+func mapCharToInt(op: String) throws -> Array<Int> {
+    var exp: [Int] = []
     for ch in Array(op) {
-        var right = false
-        for opVariant in rightOperators {
-            if String(ch) == opVariant {
-                right = true
-            }
-        }
-        if !right {
+        if let opCode = rightOperators[String(ch)] {
+            exp.append(opCode)
+        } else {
             throw CheckAnswerErrors.wrongOperator(operator: ch)
         }
     }
+    return exp;
 }

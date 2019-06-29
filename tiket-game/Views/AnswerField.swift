@@ -9,8 +9,8 @@
 import SwiftUI
 
 struct AnswerField : View {
-    @State private var operators = ["","","","","","",""]
-    var numset: Array<String.Element>
+    @Binding var operators: [String]
+    var numset: [Int]
     var answering: Bool
     var body: some View {
         HStack {
@@ -33,7 +33,7 @@ struct AnswerField : View {
 #if DEBUG
 struct AnswerField_Previews : PreviewProvider {
     static var previews: some View {
-        AnswerField(numset: Array("123456"), answering: false)
+        AnswerField(operators: .constant(["","","","","","",""]), numset: [1,2,3,4,5,6], answering: false)
     }
 }
 #endif
