@@ -10,6 +10,10 @@
 		1CEAF170CC70AA46F4DB0B35 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAFD98E907AF16E338A116 /* Answer.swift */; };
 		1CEAF8A510221B5A7D0DF2F2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAF45EBADD2DEB31E294AA /* Data.swift */; };
 		1CEAFA2C3AA8CA9D13AD2B84 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAFD1EAE0CDD0C38802987 /* Ticket.swift */; };
+		4B211B0722C8123E00E2C27F /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B211B0622C8123E00E2C27F /* NextButton.swift */; };
+		4B211B0922C8135B00E2C27F /* AnswerCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B211B0822C8135B00E2C27F /* AnswerCounter.swift */; };
+		4B211B0B22C8144900E2C27F /* AnswerConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B211B0A22C8144900E2C27F /* AnswerConfirmButton.swift */; };
+		4B211B0D22C8150500E2C27F /* AnsweringToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B211B0C22C8150500E2C27F /* AnsweringToggleButton.swift */; };
 		4B22185B22BF95600015773F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22185A22BF95600015773F /* Operators.swift */; };
 		4B24704922C031DD00735467 /* AnswerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24704822C031DD00735467 /* AnswerField.swift */; };
 		4B24704B22C032EA00735467 /* AnswerFieldElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24704A22C032EA00735467 /* AnswerFieldElement.swift */; };
@@ -26,6 +30,8 @@
 		4B99A4A622C405E0006248A8 /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 4B99A4A522C405E0006248A8 /* TestPlan.xctestplan */; };
 		4B99A4A822C414AF006248A8 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99A4A722C414AF006248A8 /* Calculator.swift */; };
 		4B99A4AC22C41531006248A8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99A4AB22C41531006248A8 /* Stack.swift */; };
+		4BD6DDDC22C76EB30068889C /* dataset.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BD6DDDB22C76EB30068889C /* dataset.json */; };
+		4BD6DDDE22C77E710068889C /* dalaLoadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD6DDDD22C77E710068889C /* dalaLoadTest.swift */; };
 		4BE49DF822C5312B0016485B /* checkAnswerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE49DF722C5312B0016485B /* checkAnswerTest.swift */; };
 		4BE49DFA22C587EA0016485B /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE49DF922C587EA0016485B /* ModalView.swift */; };
 		4BEC284B22C0CC9A0046D4E8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC284A22C0CC9A0046D4E8 /* Game.swift */; };
@@ -53,6 +59,10 @@
 		1CEAF45EBADD2DEB31E294AA /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		1CEAFD1EAE0CDD0C38802987 /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		1CEAFD98E907AF16E338A116 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		4B211B0622C8123E00E2C27F /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		4B211B0822C8135B00E2C27F /* AnswerCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCounter.swift; sourceTree = "<group>"; };
+		4B211B0A22C8144900E2C27F /* AnswerConfirmButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerConfirmButton.swift; sourceTree = "<group>"; };
+		4B211B0C22C8150500E2C27F /* AnsweringToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnsweringToggleButton.swift; sourceTree = "<group>"; };
 		4B22185A22BF95600015773F /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		4B24704822C031DD00735467 /* AnswerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerField.swift; sourceTree = "<group>"; };
 		4B24704A22C032EA00735467 /* AnswerFieldElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerFieldElement.swift; sourceTree = "<group>"; };
@@ -75,6 +85,8 @@
 		4B99A4A522C405E0006248A8 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		4B99A4A722C414AF006248A8 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		4B99A4AB22C41531006248A8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4BD6DDDB22C76EB30068889C /* dataset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataset.json; sourceTree = "<group>"; };
+		4BD6DDDD22C77E710068889C /* dalaLoadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dalaLoadTest.swift; sourceTree = "<group>"; };
 		4BE49DF722C5312B0016485B /* checkAnswerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkAnswerTest.swift; sourceTree = "<group>"; };
 		4BE49DF922C587EA0016485B /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		4BEC284A22C0CC9A0046D4E8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -109,6 +121,7 @@
 		1CEAF8B67ACD0B94CEF28530 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4BD6DDDB22C76EB30068889C /* dataset.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -138,6 +151,10 @@
 			children = (
 				4B24704822C031DD00735467 /* AnswerField.swift */,
 				4B24704A22C032EA00735467 /* AnswerFieldElement.swift */,
+				4B211B0622C8123E00E2C27F /* NextButton.swift */,
+				4B211B0822C8135B00E2C27F /* AnswerCounter.swift */,
+				4B211B0A22C8144900E2C27F /* AnswerConfirmButton.swift */,
+				4B211B0C22C8150500E2C27F /* AnsweringToggleButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,6 +216,7 @@
 				4B3CCDE522BD5AC200C0E439 /* tiket_gameTests.swift */,
 				4B3CCDE722BD5AC200C0E439 /* Info.plist */,
 				4BE49DF722C5312B0016485B /* checkAnswerTest.swift */,
+				4BD6DDDD22C77E710068889C /* dalaLoadTest.swift */,
 			);
 			path = "tiket-gameTests";
 			sourceTree = "<group>";
@@ -327,6 +345,7 @@
 			files = (
 				4B3CCDDB22BD5AC100C0E439 /* LaunchScreen.storyboard in Resources */,
 				4B3CCDD822BD5AC100C0E439 /* Preview Assets.xcassets in Resources */,
+				4BD6DDDC22C76EB30068889C /* dataset.json in Resources */,
 				4B3CCDD522BD5AC100C0E439 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,14 +374,18 @@
 			files = (
 				4B3CCDCC22BD5AC000C0E439 /* AppDelegate.swift in Sources */,
 				4B22185B22BF95600015773F /* Operators.swift in Sources */,
+				4B211B0922C8135B00E2C27F /* AnswerCounter.swift in Sources */,
 				4B24704B22C032EA00735467 /* AnswerFieldElement.swift in Sources */,
 				4B99A4A822C414AF006248A8 /* Calculator.swift in Sources */,
 				4B3CCDCE22BD5AC000C0E439 /* SceneDelegate.swift in Sources */,
 				4B99A4AC22C41531006248A8 /* Stack.swift in Sources */,
+				4B211B0722C8123E00E2C27F /* NextButton.swift in Sources */,
 				4B3CCDD322BD5AC000C0E439 /* ContentView.swift in Sources */,
 				4B24704922C031DD00735467 /* AnswerField.swift in Sources */,
 				4BEC284E22C0D4050046D4E8 /* checkAnswer.swift in Sources */,
+				4B211B0D22C8150500E2C27F /* AnsweringToggleButton.swift in Sources */,
 				4B3CCDD122BD5AC000C0E439 /* tiket_game.xcdatamodeld in Sources */,
+				4B211B0B22C8144900E2C27F /* AnswerConfirmButton.swift in Sources */,
 				4BEC284B22C0CC9A0046D4E8 /* Game.swift in Sources */,
 				1CEAF170CC70AA46F4DB0B35 /* Answer.swift in Sources */,
 				4BE49DFA22C587EA0016485B /* ModalView.swift in Sources */,
@@ -378,6 +401,7 @@
 				4B3CCDE622BD5AC200C0E439 /* tiket_gameTests.swift in Sources */,
 				4B99A4A422C403B6006248A8 /* CalculatorTest.swift in Sources */,
 				4BE49DF822C5312B0016485B /* checkAnswerTest.swift in Sources */,
+				4BD6DDDE22C77E710068889C /* dalaLoadTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

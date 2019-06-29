@@ -9,17 +9,28 @@
 import SwiftUI
 
 struct ContentView: View {
-    var numset: [Int]
-    var body: some View {
-        Game(numset: numset, possibleAnswerCounts: 10)
+	@ObjectBinding var ticketsInfo: TicketInfo
+	var body: some View {
+		VStack {
+			if ticketsInfo.loading {
+				Text("Loading...")
+			} else if self.ticketsInfo.tickets.count > 0 {
+				Game(getTicket: getTicket)
+			} else {
+				Text("Something wrong...")
+			}
+		}
+	}
 
-    }
+	private func getTicket() -> Ticket {
+		self.ticketsInfo.tickets[Int.random(in: 0..<self.ticketsInfo.tickets.count)]
+	}
 }
 
 #if DEBUG
 struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(numset: [1,0,3,4,8,6])
-    }
+	static var previews: some View {
+		ContentView(ticketsInfo: TicketInfo())
+	}
 }
 #endif
