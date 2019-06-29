@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1CEAF170CC70AA46F4DB0B35 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAFD98E907AF16E338A116 /* Answer.swift */; };
+		1CEAF8A510221B5A7D0DF2F2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAF45EBADD2DEB31E294AA /* Data.swift */; };
+		1CEAFA2C3AA8CA9D13AD2B84 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAFD1EAE0CDD0C38802987 /* Ticket.swift */; };
 		4B22185B22BF95600015773F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B22185A22BF95600015773F /* Operators.swift */; };
 		4B24704922C031DD00735467 /* AnswerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24704822C031DD00735467 /* AnswerField.swift */; };
 		4B24704B22C032EA00735467 /* AnswerFieldElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B24704A22C032EA00735467 /* AnswerFieldElement.swift */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CEAF45EBADD2DEB31E294AA /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1CEAFD1EAE0CDD0C38802987 /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		1CEAFD98E907AF16E338A116 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		4B22185A22BF95600015773F /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		4B24704822C031DD00735467 /* AnswerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerField.swift; sourceTree = "<group>"; };
@@ -102,6 +106,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CEAF8B67ACD0B94CEF28530 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1CEAFC10AA1FCB2A096381BF /* utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +127,8 @@
 				4B22185A22BF95600015773F /* Operators.swift */,
 				1CEAFD98E907AF16E338A116 /* Answer.swift */,
 				4BE49DF922C587EA0016485B /* ModalView.swift */,
+				1CEAFD1EAE0CDD0C38802987 /* Ticket.swift */,
+				1CEAF45EBADD2DEB31E294AA /* Data.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +178,7 @@
 				4B3CCDD622BD5AC100C0E439 /* Preview Content */,
 				4BEC284A22C0CC9A0046D4E8 /* Game.swift */,
 				1CEAFC10AA1FCB2A096381BF /* utils */,
+				1CEAF8B67ACD0B94CEF28530 /* Resources */,
 			);
 			path = "tiket-game";
 			sourceTree = "<group>";
@@ -352,6 +366,8 @@
 				4BEC284B22C0CC9A0046D4E8 /* Game.swift in Sources */,
 				1CEAF170CC70AA46F4DB0B35 /* Answer.swift in Sources */,
 				4BE49DFA22C587EA0016485B /* ModalView.swift in Sources */,
+				1CEAFA2C3AA8CA9D13AD2B84 /* Ticket.swift in Sources */,
+				1CEAF8A510221B5A7D0DF2F2 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
